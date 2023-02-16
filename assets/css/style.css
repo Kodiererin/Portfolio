@@ -129,7 +129,11 @@ h6 {
   #main {
     margin-left: 0;
   }
+  #hero{
+    float : left
+  }
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -224,7 +228,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/IMG_20230114_230234[346].jpg") top center;
+  background: url("../img/IMG_20230114_230234[346].jpg") top center;    /* */
   background-size: cover;
 }
 
@@ -1096,5 +1100,23 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+@media(max-width : 500px){
+  #header {
+    left: -300px;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+  #hero{
+    background: url("/assets/img/IMG_20230114_230234[346]-2.jpg") top center;  
+    height: 100vh;
+    background-size: cover;
+    float : left;
+  }
+  .profileImg{
+    height : 100px;
   }
 }
