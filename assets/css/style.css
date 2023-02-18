@@ -129,11 +129,7 @@ h6 {
   #main {
     margin-left: 0;
   }
-  #hero{
-    float : left
-  }
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -228,9 +224,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/IMG_20230114_230234[346].jpg") top center;    /* */
+  background: url("../img/IMG_20230114_230234[346].jpg") top center;
   background-size: cover;
 }
+
+/* Add Some change Here */
+
 
 #hero:before {
   content: "";
@@ -274,6 +273,7 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    right : 300px;
   }
 }
 
@@ -288,7 +288,11 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  #hero{
+    left : 200px;
+  }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -1100,23 +1104,5 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
-  }
-}
-@media(max-width : 500px){
-  #header {
-    left: -300px;
-  }
-
-  #main {
-    margin-left: 0;
-  }
-  #hero{
-    background: url("/assets/img/IMG_20230114_230234[346]-2.jpg") top center;  
-    height: 100vh;
-    background-size: cover;
-    float : left;
-  }
-  .profileImg{
-    height : 100px;
   }
 }
