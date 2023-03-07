@@ -1,4 +1,5 @@
-/*!
+/*! 
+ * Imported Code.
  * purecounter.js - A simple yet configurable native javascript counter which you can count on.
  * Author: Stig Rex
  * Version: 1.5.0
