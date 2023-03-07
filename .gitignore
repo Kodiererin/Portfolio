@@ -138,4 +138,7 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+
+/inner-page.html
+/portfolio-details.html
 # End
