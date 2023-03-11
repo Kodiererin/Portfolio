@@ -1101,3 +1101,74 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/* -----------------Blog------------------------ */
+.box{
+    width:300px;
+    padding:40px;
+    position:absolute;
+    top:40%;
+    left:30%;
+    transform:transalte(-50%,-40%);
+    background:#191919;
+  
+    justify-content:center;
+    text-align:center;
+    box-shadow:black;
+}
+.box #boxId{
+    color:white;
+    text-transform:uppercase;
+    font-weight:500;
+}
+.box #box-input-name #box-input-password{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #3498db;
+    border-radius:24px;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    transition:0.25s ease-in-out;
+    
+    }
+    .box #box-input-name:hover, .box #box-input-password:hover{
+        width:270px;
+        border-color:#2ecc71;
+    }
+    .box #boxSubmit{
+           border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #2ecc71 ;
+    border-radius:24px;
+    padding:10px 40px;
+       outline:none;
+    color:white;
+    transition:0.25s ease-in-out;
+    }
+    .box #boxSubmit:hover{
+        background:#fff;
+        color:black;
+        
+    }
+
+
+/* --------------------------------------------- */
+
+
+.cascading-right {
+  margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+  .cascading-right {
+    margin-right: 0;
+  }
+}
